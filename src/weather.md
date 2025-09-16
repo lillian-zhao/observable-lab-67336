@@ -28,10 +28,10 @@ function temperaturePlot(data, {width} = {}) {
   });
 }
 ```
-
+<!-- 
 ```js
 display(temperaturePlot(forecast));
-```
+``` -->
 
 <div class="grid grid-cols-1">
   <div class="card">${resize((width) => temperaturePlot(forecast, {width}))}</div>
